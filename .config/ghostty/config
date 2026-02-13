@@ -1,0 +1,4 @@
+theme = osakajade.conf
+
+background-opacity = 0.7
+background-blur = 10

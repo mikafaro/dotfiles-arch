@@ -1,0 +1,76 @@
+{
+  "include": [
+  ],
+
+  /* LAYOUT */
+
+  "modules-left": [
+  ],
+  "modules-center": [
+  "hyprland/workspaces"
+  ],
+  "modules-right": [
+    "tray"
+  ],
+
+  /* OPTIONS */
+
+  "output": "DP-2",
+  "layer": "top",
+  "position": "top",
+  "margin-top": 4,
+  "margin-bottom": 0,
+  "margin-left": 8,
+  "margin-right": 8,
+  "height": 36,
+  //"width":
+  //"spacing":
+  //"name":
+  //"mode":
+  //"start_hidden":
+  //"modifier-reset":
+  //"exclusive":
+  //"fixed-center":
+  //"passthrough":
+  //"ipc":
+  //"id":
+  //"include":
+  //"reload_style_on_change":
+  //"on-sigusr1":
+  //"on-sigusr2":
+
+
+  "hyprland/workspaces": {
+    "disable-scroll": true,
+    "all-outputs": true
+  },
+
+  "clock": {
+    "format": "{:%H:%M}",
+    "tooltip-format": "{:%A, %d %B %Y}"
+  },
+
+  "network": {
+    "format-wifi": "  {signalStrength}%",
+    "format-ethernet": "󰈀  Connected",
+    "format-disconnected": "  Offline"
+  },
+
+  "battery": {
+    "format": "{capacity}%",
+    "format-charging": " {capacity}%",
+    "format-full": "  {capacity}%"
+  },
+
+  "cpu": {
+    "format": "  {usage}%"
+  },
+
+  "memory": {
+    "format": "  {used}MB"
+  },
+
+  "tray": {
+    "spacing": 10
+  }
+}
