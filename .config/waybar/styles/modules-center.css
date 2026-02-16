@@ -1,0 +1,161 @@
+/* Arch Logo */
+
+#custom-arch {
+  background-color: @bg5;
+  color: alpha(@fg-dark, 0.7);
+}
+
+#custom-arch:hover {
+  color: @fg-hover-warm;
+  text-shadow: 0 0 1px @glow-hover-warm;
+  text-shadow: 0 0 2px alpha(@glow-hover-warm, 0.6);
+}
+
+#custom-right_div.3 {
+  background-color: transparent;
+  color: @bg5;
+  margin-right: -1px;
+}
+
+#custom-left_div.4 {
+  background-color: transparent;
+  color: @bg5;
+}
+
+/* Time & CPU */
+
+#custom-right_inv.1 {
+  background-color: transparent;
+  color: @bg4;
+}
+
+#custom-left_inv.2 {
+  background-color: transparent;
+  color: @bg4;
+}
+
+#cpu {
+  background-color: @bg4;
+}
+
+#cpu:hover {
+  color: @fg-hover-warm;
+  text-shadow: 0 0 2px @glow-hover-warm;
+  text-shadow: 0 0 3px alpha(@glow-hover-warm, 0.6);
+}
+
+#clock.time {
+  background-color: @bg4;
+}
+
+#clock.time:hover {
+  color: @fg-hover-warm;
+  text-shadow: 0 0 2px @glow-hover-warm;
+  text-shadow: 0 0 4px alpha(@glow-hover-warm, 0.6);
+}
+
+#custom-left_div.5 {
+  color: @bg4;
+  background-color: @bg3;
+}
+
+#custom-right_div.2 {
+  color: @bg4;
+  background-color: @bg3;
+}
+
+/* Date & Memory */
+
+#memory {
+  background-color: @bg3;
+}
+
+#memory:hover {
+  color: @fg-hover-warm;
+  text-shadow: 0 0 2px @glow-hover-warm;
+  text-shadow: 0 0 4px alpha(@glow-hover-warm, 0.6);
+}
+
+#clock.date {
+  background-color: @bg3;
+}
+
+#clock.date:hover {
+  color: @fg-hover-warm;
+  text-shadow: 0 0 2px @glow-hover-warm;
+  text-shadow: 0 0 4px alpha(@glow-hover-warm, 0.6);
+}
+
+/* Connections & Temperature */
+
+#custom-left_div.6 {
+  color: @bg3;
+  background-color: @bg2;
+}
+
+#custom-right_div.1 {
+  color: @bg3;
+  background-color: @bg2;
+}
+
+#temperature {
+  background-color: @bg2;
+}
+
+#temperature:hover {
+  color: @fg-hover-warm;
+  text-shadow: 0 0 2px @glow-hover-warm;
+  text-shadow: 0 0 3px alpha(@glow-hover-warm, 0.6);
+}
+
+#network {
+  background-color: @bg2;
+}
+
+#network:hover {
+  color: @fg-hover-warm;
+  text-shadow: 0 0 2px @glow-hover-warm;
+  text-shadow: 0 0 4px alpha(@glow-hover-warm, 0.6);
+}
+
+#bluetooth {
+  background-color: @bg2;
+}
+
+#bluetooth:hover {
+  color: @fg-hover-warm;
+  text-shadow: 0 0 2px @glow-hover-warm;
+  text-shadow: 0 0 4px alpha(@glow-hover-warm, 0.6);
+}
+
+#custom-left_div.7 {
+  color: @bg2;
+  background-color: transparent;
+}
+
+#custom-right_div.4 {
+  color: @bg2;
+  background-color: transparent;
+}
+
+/* Language and Updates */
+
+#language {
+  background-color: transparent;
+}
+
+#language:hover {
+  color: @fg-hover-warm;
+  text-shadow: 0 0 2px @glow-hover-warm;
+  text-shadow: 0 0 4px alpha(@glow-hover-warm, 0.6);
+}
+
+#custom-updates {
+  background-color: transparent;
+}
+
+#custom-updates:hover {
+  color: @fg-hover-warm;
+  text-shadow: 0 0 2px @glow-hover-warm;
+  text-shadow: 0 0 4px alpha(@glow-hover-warm, 0.6);
+}

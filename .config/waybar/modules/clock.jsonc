@@ -1,0 +1,28 @@
+{
+  /* Time */
+
+  "clock#time": {
+    "format": "󰅐 {:%H:%M}",
+    "tooltip": false,
+    "min-length": 10,
+    "max-length": 10,
+  },
+
+  /* Date */
+
+  "clock#date": {
+    "format": "󰸗 {:%d %b}",
+    "tooltip-format": "{calendar}",
+    "min-length": 10,
+    "max-length": 10,
+    "calendar": {
+      "mode": "month",
+      "mode-mon-col": 4,
+      "weeks-pos": "left",
+      // "on-scroll":
+    },
+    "actions": {
+      "on-click": "mode"
+    }
+  }
+}

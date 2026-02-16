@@ -1,0 +1,37 @@
+/* Menu */
+
+#custom-menu {
+  color: @fg-dim;
+  background-color: transparent;
+  padding: 0 20px 0 18px;
+}
+
+#custom-menu:hover {
+  color: @fg-hover-warm;
+  text-shadow: 0 0 2px @glow-hover-warm;
+  text-shadow: 0 0 4px alpha(@glow-hover-warm, 0.6);
+}
+
+/* Workspaces */
+
+#custom-left_div.8 {
+  color: @bg2;
+  background-color: transparent;
+}
+
+#workspaces {
+  background-color: @bg2;
+  padding: 0 8px;
+}
+
+#custom-right_div.5 {
+  color: @bg2;
+  background-color: transparent;
+}
+
+/* Window */
+
+#window {
+  background-color: transparent;
+  padding: 0 12px;
+}

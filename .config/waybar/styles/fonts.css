@@ -1,0 +1,32 @@
+* {
+  font-family: "CaskaydiaCove Nerd Font";
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#window label,
+#mpris,
+tooltip label {
+  font-weight: normal;
+}
+
+#custom-power,
+#custom-menu {
+  font-size: 20px;
+}
+
+#workspaces button.active label,
+#workspaces button.focused label {
+  font-size: 18px;
+}
+
+#custom-arch {
+  font-size: 20px
+}
+
+#custom-right_inv,
+#custom-right_div,
+#custom-left_inv,
+#custom-left_div {
+  font-size: 22px;
+}

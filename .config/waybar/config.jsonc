@@ -1,16 +1,53 @@
 {
+
+  /* IMPORTS */
+
   "include": [
+    "modules/*.jsonc",
+    "modules/hyprland/*.jsonc",
+    "modules/custom/*.jsonc"
   ],
 
   /* LAYOUT */
 
   "modules-left": [
+    "custom/menu",
+    "custom/left_div#8",
+    "hyprland/workspaces",
+    "custom/right_div#5",
+    "hyprland/window"
   ],
   "modules-center": [
-  "hyprland/workspaces"
+    "hyprland/language",
+    "custom/left_div#7",
+    "temperature",
+    "custom/left_div#6",
+    "memory",
+    "custom/left_div#5",
+    "cpu",
+    "custom/left_inv#2",
+    "custom/left_div#4",
+    "custom/arch",
+    "custom/right_div#3",
+    "custom/right_inv#1",
+    "clock#time",
+    "custom/right_div#2",
+    "clock#date",
+    "custom/right_div#1",
+    "network",
+    "bluetooth",
+    "custom/right_div#4",
+    "custom/updates"
   ],
   "modules-right": [
-    "tray"
+    "custom/left_div#3",
+    "group/pulseaudio",
+    "custom/left_div#2",
+    "backlight",
+    "custom/left_div#1",
+    "battery",
+    "custom/left_inv#1",
+    "custom/power"
   ],
 
   /* OPTIONS */
@@ -22,9 +59,9 @@
   "margin-bottom": 0,
   "margin-left": 8,
   "margin-right": 8,
-  "height": 36,
+  "height": 0,
   //"width":
-  //"spacing":
+  "spacing": 0,
   //"name":
   //"mode":
   //"start_hidden":
@@ -35,42 +72,8 @@
   //"ipc":
   //"id":
   //"include":
-  //"reload_style_on_change":
+  "reload_style_on_change": true
   //"on-sigusr1":
   //"on-sigusr2":
 
-
-  "hyprland/workspaces": {
-    "disable-scroll": true,
-    "all-outputs": true
-  },
-
-  "clock": {
-    "format": "{:%H:%M}",
-    "tooltip-format": "{:%A, %d %B %Y}"
-  },
-
-  "network": {
-    "format-wifi": "  {signalStrength}%",
-    "format-ethernet": "󰈀  Connected",
-    "format-disconnected": "  Offline"
-  },
-
-  "battery": {
-    "format": "{capacity}%",
-    "format-charging": " {capacity}%",
-    "format-full": "  {capacity}%"
-  },
-
-  "cpu": {
-    "format": "  {usage}%"
-  },
-
-  "memory": {
-    "format": "  {used}MB"
-  },
-
-  "tray": {
-    "spacing": 10
-  }
 }

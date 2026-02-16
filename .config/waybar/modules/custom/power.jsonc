@@ -1,0 +1,7 @@
+{
+  "custom/power": {
+    "format": "󰤄",
+    "tooltip-format": "Power Options"
+    //"on-click": perhaps a script for wofi?
+  }
+}

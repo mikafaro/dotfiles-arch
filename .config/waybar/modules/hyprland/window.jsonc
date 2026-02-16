@@ -1,0 +1,16 @@
+{
+  "hyprland/window": {
+    "format": "󰍹 {class}",
+    // "max-length": 30,
+    "rewrite": {
+      // em dash for copying in case I want to use title to rewrite -> —
+      "^.*firefox": " Firefox",
+      "^.*com.mitchellh.ghostty": " Ghostty",
+      "^.*org.kde.dolphin": " Dolphin",
+      "󰍹 ": "󰍹 Desktop"
+    },
+    "separate-outputs": false,
+    "icon": false,
+    // "icon-size": 14 // default 24
+  }
+}

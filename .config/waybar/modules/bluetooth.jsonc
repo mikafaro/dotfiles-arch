@@ -1,0 +1,13 @@
+{
+  "bluetooth": {
+    // "controller": // string, default chosen randomly, choose one
+    "format": "󰂯",
+    "format-connected": "󰂱",
+    "format-disabled": "󰂲",
+    "format-on": "󰂯",
+    "format-off": "󰂲",
+    "format-no-controller": "󱒿",
+    "min-length": 5,
+    "max-length": 5
+  }
+}

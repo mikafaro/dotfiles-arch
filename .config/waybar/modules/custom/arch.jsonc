@@ -1,0 +1,8 @@
+{
+  "custom/arch": {
+    "format": "",
+    "tooltip": false,
+    "min-length": 3,
+    "align": 0.38,
+  }
+}

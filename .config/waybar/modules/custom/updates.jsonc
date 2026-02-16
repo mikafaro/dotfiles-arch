@@ -1,0 +1,12 @@
+{
+  "custom/updates": {
+    "exec": "~/.config/waybar/scripts/checktotalupdates.sh",
+    "format": "{}",
+    "interval": 3600,
+    "signal": 8,
+    "max-length": 10,
+    "min-length": 10,
+    "on-click": "ghostty -e sh -c 'yay -Syu && pkill -RTMIN+8 waybar'",
+    "tooltip-format": "There are {text} updates ready to install"
+  }
+}

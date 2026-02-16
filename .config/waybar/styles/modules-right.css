@@ -1,0 +1,70 @@
+/* Power Options */
+
+#custom-power {
+  margin: 0 2px;
+  padding: 0 18px 0 20px;
+  border-radius: 8px;
+  color: @fg-dim;
+}
+
+#custom-power:hover {
+  color: @fg-hover-warm;
+  text-shadow: 0 0 2px @glow-hover-warm;
+  text-shadow: 0 0 4px alpha(@glow-hover-warm, 0.6);
+}
+
+/* Battery */
+
+#custom-left_inv.1 {
+  background-color: transparent;
+  color: @bg4;
+}
+
+#battery {
+  background-color: @bg4;
+}
+
+#battery:hover {
+  color: @fg-hover-warm;
+  text-shadow: 0 0 2px @glow-hover-warm;
+  text-shadow: 0 0 4px alpha(@glow-hover-warm, 0.6);
+}
+
+#custom-left_div.1 {
+  color: @bg4;
+  background-color: @bg3;
+}
+
+/* Backlight */
+
+#backlight {
+  background-color: @bg3;
+}
+
+#backlight:hover {
+  color: @fg-hover-warm;
+  text-shadow: 0 0 2px @glow-hover-warm;
+  text-shadow: 0 0 4px alpha(@glow-hover-warm, 0.6);
+}
+
+#custom-left_div.2 {
+  color: @bg3;
+  background-color: @bg2;
+}
+
+/* Pulse Audio */
+
+#pulseaudio {
+  background-color: @bg2;
+}
+
+#pulseaudio:hover {
+  color: @fg-hover-warm;
+  text-shadow: 0 0 2px @glow-hover-warm;
+  text-shadow: 0 0 4px alpha(@glow-hover-warm, 0.6);
+}
+
+#custom-left_div.3 {
+  color: @bg2;
+  background-color: transparent;
+}

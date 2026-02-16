@@ -1,0 +1,16 @@
+{
+  "memory": {
+    "interval": 10, // default 10
+    "format": "  {percentage}%",
+    "format-warning": " {percentage}%",
+    "format-critical": " {percentage}%",
+    "min-length": 10,
+    "max-length": 10,
+    "states": {
+      "warning": 75,
+      "critical": 90
+    },
+    "tooltip-format": "Memory Used: {used:0.0f}/{total:0.0f} GB",
+    // "on-click": // launch btop
+  }
+}

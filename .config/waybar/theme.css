@@ -1,0 +1,29 @@
+/* Osaka Jade Waybar Theme */
+
+@define-color fg-main           #e6d8ba;
+@define-color fg-warm           #E8D4A2;
+@define-color fg-dark           #040B08;
+@define-color fg-dim            #6B8271;
+@define-color fg-sage-light     #B8C9A9;
+@define-color fg-sage-dark      #1B3028;
+/*
+@define-color fg-hover          #B3FFDF;
+@define-color glow-hover        #07E58B;
+@define-color fg-hover-warm     #FFE9B3;
+@define-color glow-hover-warm   #D4A351;
+*/
+
+@define-color fg-hover-warm     #FFF4D6;
+@define-color glow-hover-warm   #FFB300;
+
+@define-color main-bg           #11221C;
+@define-color bg2               #0f4932;
+@define-color bg3               #0d7048;
+@define-color bg4               #0b975e;
+@define-color bg5               #09be74;
+@define-color bg6               #07e58b;
+
+@define-color darkest           #00090a;
+
+@define-color yellow            #fef08f;
+@define-color red               #471326;

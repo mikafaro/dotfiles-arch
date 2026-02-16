@@ -1,0 +1,10 @@
+{
+  "hyprland/language": {
+    "format": "{}",
+    "format-en": "en",
+    "format-no": "no",
+    "min-length": 10,
+    "max-length": 10,
+    // "on-click": switch input script
+  }
+}
