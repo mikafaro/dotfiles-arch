@@ -1,12 +1,11 @@
 {
   "custom/updates": {
     "exec": "~/.config/waybar/scripts/checktotalupdates.sh",
+    "exec-on-event": true,
     "format": "{}",
     "interval": 3600,
-    "signal": 8,
     "max-length": 10,
     "min-length": 10,
-    "on-click": "ghostty -e ~/.config/waybar/scripts/run_updates.sh",
-    "tooltip-format": "There are {text} updates ready to install"
+    "tooltip": false
   }
 }

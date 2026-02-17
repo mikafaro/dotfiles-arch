@@ -2,16 +2,16 @@
 
 entries="󰐥 Shutdown\n󰜉 Reboot\n󰤄 Sleep\n󰍃 Logout"
 
-selected=$(echo -e "$entries" | wofi --dmenu --cache-file /dev/null --location 3 --xoffset -20 --yoffset 50 --width 200 --lines 4 --prompt "Power Menu")
+selected=$(echo -e "$entries" | wofi --dmenu --cache-file /dev/null --location 3 --xoffset -10 --yoffset 2 --width 200 --lines 4 --prompt "Power Menu")
 
 # Execute based on selection
 case $selected in
   *Shutdown)
-    systemctl poweroff ;;
+    hyprshutdown -t 'Shutting down ... ' -p 'shutdown -P 0' ;;
   *Reboot)
-    systemctl reboot ;;
+    hyprshutdown -t 'Rebooting ... ' -p 'reboot' ;;
   *Sleep)
-    systemctl suspend ;;
+    loginctl suspend ;;
   *Logout)
-    hyprctl dispatch exit ;;
+    hyprshutdown -t 'Exiting Hyprland ... ' --vt 2 ;;
 esac

@@ -14,7 +14,7 @@ total=$((official + aur))
 
 # Output logic for Waybar
 if [ "$total" -gt 0 ]; then
-    echo "󰚰 $total"
+    echo "󰮯 $official 󱧕 $aur"
 else
     echo "󰄬"
 fi
