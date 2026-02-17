@@ -13,5 +13,5 @@ case $selected in
   *Sleep)
     loginctl suspend ;;
   *Logout)
-    hyprshutdown -t 'Exiting Hyprland ... ' --vt 2 ;;
+    hyprshutdown --vt 2;;
 esac
