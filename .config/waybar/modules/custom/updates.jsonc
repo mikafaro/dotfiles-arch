@@ -6,7 +6,7 @@
     "signal": 8,
     "max-length": 10,
     "min-length": 10,
-    "on-click": "ghostty -e sh -c 'yay -Syu && pkill -RTMIN+8 waybar'",
+    "on-click": "ghostty -e ~/.config/waybar/scripts/run_updates.sh",
     "tooltip-format": "There are {text} updates ready to install"
   }
 }
