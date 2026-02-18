@@ -10,6 +10,7 @@
     "format-icons": [
       "", "", "", "", ""
     ],
-    "tooltip": false
+    "tooltip": false,
+    "on-click": "hyprctl dispatch exec 'ghostty -e btop'"
   }
 }

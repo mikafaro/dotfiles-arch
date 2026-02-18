@@ -11,6 +11,6 @@
       "critical": 90
     },
     "tooltip-format": "Memory Used: {used:0.0f}/{total:0.0f} GB",
-    // "on-click": // launch btop
+    "on-click": "hyprctl dispatch exec 'ghostty -e btop'"
   }
 }
