@@ -5,6 +5,7 @@
     "format-no": "no",
     "min-length": 10,
     "max-length": 10,
-    "on-click": "hyprctl switchxkblayout all next"
+    "on-click": "hyprctl switchxkblayout all next",
+    "on-click-right": "~/.config/waybar/scripts/kb_layout_choice.sh"
   }
 }

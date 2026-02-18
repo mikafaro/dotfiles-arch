@@ -1,3 +1,5 @@
+@import fonts.css;
+
 @define-color window_bg_color #11221C;
 @define-color accent_bg_color #0F4932;
 @define-color theme_fg_color  #E6D8BA;
