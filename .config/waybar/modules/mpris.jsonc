@@ -1,0 +1,30 @@
+{
+  "mpris": {
+    // "player": // default: follows active player
+    // "ignored-players":
+    // "interval":, // updates immediately upon change, so no need
+    "format": "{player_icon}  <i>{dynamic}</i>",
+    "format-paused": "{status_icon}  <i>{dynamic}</i>",
+    "format-stopped": "{status_icon}  <i>{dynamic}</i>",
+    // "format-len":
+    "tooltip": false,
+    // "tooltip-format":
+    // "enable-tooltip-len-limits":
+    // "on-click": // default: play/pause
+    // "on-click-middle": // default: previous track
+    // "on-click-right": // default: next track
+    "player-icons": {
+      "default": "",
+      "firefox": ""
+    },
+    "status-icons": {
+      "playing": "",
+      "paused": "",
+      "stopped": ""
+    },
+    "dynamic-order": ["title", "artist"],
+    // "dynamic-importance-order":
+    // "dynamic-separator":
+    // "dynamic-len":
+  }
+}

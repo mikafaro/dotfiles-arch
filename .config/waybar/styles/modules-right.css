@@ -68,3 +68,15 @@
   color: @bg2;
   background-color: transparent;
 }
+
+/* MPRIS */
+
+#mpris {
+  padding: 0 8px;
+}
+
+#mpris:hover {
+  color: @fg-hover-warm;
+  text-shadow: 0 0 2px @glow-hover-warm;
+  text-shadow: 0 0 4px alpha(@glow-hover-warm, 0.6);
+}
