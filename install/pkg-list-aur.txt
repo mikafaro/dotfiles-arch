@@ -1,0 +1,14 @@
+cmatrix-git
+elephant
+elephant-calc
+elephant-clipboard
+elephant-desktopapplications
+elephant-menus
+elephant-runner
+elephant-symbols
+hyprqt6engine
+hyprshutdown
+mirage
+walker
+yay-bin
+yay-bin-debug
