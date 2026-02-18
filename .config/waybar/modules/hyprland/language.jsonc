@@ -5,6 +5,6 @@
     "format-no": "no",
     "min-length": 10,
     "max-length": 10,
-    // "on-click": switch input script
+    "on-click": "hyprctl switchxkblayout all next"
   }
 }
