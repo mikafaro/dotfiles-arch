@@ -1,6 +1,7 @@
 {
   "custom/menu": {
     "format": "󰍜",
-    "tooltip": false
+    "tooltip": false,
+    "on-click": "hyprctl dispatch exec walker"
   }
 }
