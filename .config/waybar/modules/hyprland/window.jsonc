@@ -13,7 +13,8 @@
       "^.*discord": "  Discord",
       "^.*obsidian": "󰚸  Obsidian",
       "^.*texstudio": "  TeXStudio",
-      "󰍹 ": "󰍹  Desktop"
+      "^.*font-manager": "  Font Manager",
+      "󰍹  ": "󰍹  Desktop"
     },
     "separate-outputs": false,
     "icon": false,
