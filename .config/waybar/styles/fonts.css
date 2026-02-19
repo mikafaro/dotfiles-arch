@@ -1,5 +1,5 @@
 * {
-  font-family: "CaskaydiaCove Nerd Font";
+  font-family: "CaskaydiaCove Nerd Font", "sans-serif";
   font-weight: bold;
   font-size: 14px;
 }
@@ -7,6 +7,7 @@
 #window label,
 #mpris,
 tooltip label {
+  font-family: "Lora", "CaskaydiaCove Nerd Font", "serif";
   font-weight: normal;
 }
 
