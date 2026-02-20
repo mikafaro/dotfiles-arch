@@ -1,0 +1,28 @@
+{
+  "group/leftgroup": {
+    "orientation": "horizontal",
+    "drawer": {
+      "transition-left-to-right": true,
+    },
+    "modules": [
+      "custom/menu",
+      "tray",
+    ],
+  },
+
+  "custom/menu": {
+    "format": "󰍜",
+    "tooltip": false,
+    "on-click": "hyprctl dispatch exec 'walker --height 848'"
+  },
+
+  "tray": {
+    "icon-size": 20,
+    "show-passive-items": false,
+    "spacing": 8,
+    "reverse-direction": false,
+    "icons": {
+
+    }
+  }
+}

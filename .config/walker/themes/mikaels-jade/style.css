@@ -1,4 +1,4 @@
-@import fonts.css;
+@import url("fonts.css");
 
 @define-color window_bg_color #11221C;
 @define-color accent_bg_color #0F4932;
@@ -96,6 +96,7 @@ child {
 .item-box {
   border-radius: 10px;
   padding: 10px;
+  min-height: 42px;
 }
 
 .item-quick-activation {

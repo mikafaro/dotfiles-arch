@@ -11,7 +11,7 @@
   /* LAYOUT */
 
   "modules-left": [
-    "custom/menu",
+    "group/leftgroup",
     "custom/left_div#8",
     "hyprland/workspaces",
     "custom/right_div#5",

@@ -12,6 +12,30 @@
   text-shadow: 0 0 4px alpha(@glow-hover-warm, 0.6);
 }
 
+#tray {
+  background-color: transparent;
+  padding: 0 8px;
+}
+
+menu {
+  color: @fg-main;
+  background-color: @main-bg;
+  border: 1px solid @bg5;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+menuitem {
+  padding: 5px 8px;
+  border-radius: 5px;
+  color: @fg-main;
+}
+
+menuitem:hover {
+  background-color: @bg2;
+  color: @fg-hover-warm;
+}
+
 /* Workspaces */
 
 #custom-left_div.8 {

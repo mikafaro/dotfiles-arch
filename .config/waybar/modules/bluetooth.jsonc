@@ -8,6 +8,12 @@
     "format-off": "󰂲",
     "format-no-controller": "󱒿",
     "min-length": 5,
-    "max-length": 5
+    "max-length": 5,
+    "tooltip": true,
+    "format-tooltip": "{controller_alias}\t{controller_address}",
+    "format-tooltip-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
+    "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+    // "on-click":
+    // "on-click-right": 
   }
 }

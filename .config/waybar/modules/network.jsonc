@@ -16,10 +16,10 @@
     //"on-click-middle": ,
     //"on-click-right": ,
     "tooltip": true,
-    "tooltip-format": "",
-    "tooltip-format-wifi": "",
-    "tooltip-format-ethernet": "",
-    "tooltip-format-disconnected": "",
-    "tooltip-format-disabled": ""
+    "tooltip-format": " {bandwidthDownBits}   {bandwidthUpBits}",
+    "tooltip-format-wifi": "Connected to Network: {essid}\t{signalStrength}%",
+    "tooltip-format-ethernet": "Connected by Cable}",
+    "tooltip-format-disconnected": "Disconnected",
+    "tooltip-format-disabled": "Interface Disabled"
   }
 }
