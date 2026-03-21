@@ -1,23 +1,13 @@
 {
   "hyprland/window": {
-    "format": "󰍹  {class}",
+    "format": "{title}",
     // "max-length": 30,
     "rewrite": {
-      // em dash for copying in case I want to use title to rewrite -> —
-      // Needs double space after icon to look right
-      "^.*firefox": "  Firefox",
-      "^.*com.mitchellh.ghostty": "  Ghostty",
-      "^.*kitty": "  Kitty",
-      "^.*org.kde.dolphin": "  Dolphin",
-      "^.*steam": "󰓓  Steam",
-      "^.*discord": "  Discord",
-      "^.*obsidian": "󰚸  Obsidian",
-      "^.*texstudio": "  TeXStudio",
-      "^.*font-manager": "  Font Manager",
-      "󰍹  ": "󰍹  Desktop"
+      // em dash -> —
+      "": "Desktop"
     },
     "separate-outputs": false,
-    "icon": false,
-    // "icon-size": 14 // default 24
+    "icon": true,
+    "icon-size": 14 // default 24
   }
 }
