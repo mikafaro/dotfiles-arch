@@ -12,14 +12,20 @@
 
   "clock#date": {
     "format": "󰸗 {:%d %b}",
-    "tooltip-format": "{calendar}",
+    "tooltip-format": "<tt><small>{calendar}</small></tt>",
     "min-length": 10,
     "max-length": 10,
     "calendar": {
       "mode": "month",
       "mode-mon-col": 4,
-      "weeks-pos": "left",
-      // "on-scroll":
+      "weeks-pos": "right",
+      "on-scroll": 1,
+      "format": {
+        "months": "<span color='#09be74'><b>{}</b></span>",
+        "weeks": "<span color='#0d7048'>W{}</span>",
+        "today": "<span color='#fef08f'><b><u>{}</u></b></span>",
+        "weekdays": "<span color='#0d7048'><b>{}</b></span>",
+      }
     },
     "actions": {
       "on-click": "mode"

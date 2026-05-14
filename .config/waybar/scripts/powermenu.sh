@@ -2,7 +2,7 @@
 
 options="󰐥 Power Off\n󰜉 Reboot\n󰤄 Suspend\n󰈆 Logout"
 
-chosen=$(echo -e "$options" | walker --dmenu --maxheight 320 | awk '{print $2}')
+chosen=$(echo -e "$options" | walker -n --dmenu --maxheight 320 | awk '{print $2}')
 
 case $chosen in
     "Power")
