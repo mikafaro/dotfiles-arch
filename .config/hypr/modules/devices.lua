@@ -1,0 +1,3 @@
+-- Hyprland Devices Module --
+--
+-- Enter per-device settings here if needed.

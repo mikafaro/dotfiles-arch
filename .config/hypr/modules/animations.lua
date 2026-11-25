@@ -1,0 +1,3 @@
+-- Hyprland Animations Module --
+-- 
+-- Add custom animations here if desired. Using defaults for now...
