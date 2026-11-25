@@ -20,11 +20,11 @@ hl.config({
     fullscreen_opacity = 1.0,
     blur = {
       enabled = true,
-      size = 2,
+      size = 3,
       passes = 4,
       vibrancy = 0.1696,
       special = true, -- note this could be a performance hit
-      -- variant = "kawase", -- kawase, acrylic, aurora, drops, fluid_jar, frost, haze, heat_shimmer, prism, ripple, water
+      variant = "frost", -- kawase, acrylic, aurora, drops, fluid_jar, frost, haze, heat_shimmer, prism, ripple, water
     },
     shadow = {
       enabled = true,
