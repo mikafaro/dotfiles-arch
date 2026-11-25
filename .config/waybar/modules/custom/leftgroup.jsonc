@@ -13,7 +13,7 @@
   "custom/menu": {
     "format": "󰍜",
     "tooltip": false,
-    "on-click": "hyprctl dispatch exec 'walker --height 848'"
+    "on-click": "walker --height 848"
   },
 
   "tray": {

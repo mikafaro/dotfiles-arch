@@ -11,6 +11,6 @@
       "", "", "", "", ""
     ],
     "tooltip": false,
-    "on-click": "hyprctl dispatch exec 'ghostty -e btop'"
+    "on-click": "ghostty -e btop"
   }
 }
