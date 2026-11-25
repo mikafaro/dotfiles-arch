@@ -3,6 +3,7 @@
 
 -- WORKSPACES
 --
+
 hl.workspace_rule({
   workspace = "1",
   monitor = "eDP-2",
@@ -12,15 +13,43 @@ hl.workspace_rule({
 
 hl.workspace_rule({
   workspace = "2",
+  monitor = "eDP-2",
+  default = false,
+  persistent = true,
+})
+
+hl.workspace_rule({
+  workspace = "3",
   monitor = "desc:Dell Inc. DELL U3415W F1T1W63F192L",
   default = true,
   persistent = true,
 })
 
 hl.workspace_rule({
-  workspace = "3",
+  workspace = "4",
+  monitor = "desc:Dell Inc. DELL U3415W F1T1W63F192L",
+  default = false,
+  persistent = true,
+})
+
+hl.workspace_rule({
+  workspace = "5",
+  monitor = "desc:Dell Inc. DELL U3415W F1T1W63F192L",
+  default = true,
+  persistent = true,
+})
+
+hl.workspace_rule({
+  workspace = "6",
   monitor = "desc:LG Electronics LG SDQHD 503NTAB3G520",
   default = true,
+  persistent = true,
+})
+
+hl.workspace_rule({
+  workspace = "7",
+  monitor = "desc:LG Electronics LG SDQHD 503NTAB3G520",
+  default = false,
   persistent = true,
 })
 
